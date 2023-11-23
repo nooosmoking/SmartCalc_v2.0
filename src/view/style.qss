@@ -1,0 +1,58 @@
+QLineEdit {
+    background-color: Transparent;
+    border: 2px solid rgb(17, 126, 213);
+    border-radius: 10px;
+    color: rgb(170, 40, 220);
+}
+
+QLineEdit:focus {
+    background-color: rgb(250, 120, 230);
+}
+
+QMainWindow{
+    background-image: url(:/img/background.png);
+    background-color: transparent;
+    color: rgb(0, 80, 172);
+    border-color: rgb(17, 126, 213);
+    gridline-color: rgb(14, 61, 96);
+}
+
+QDoubleSpinBox {
+    border: 2px solid rgb(17, 126, 213); 
+    border-radius: 10px; 
+    color: rgb(170, 40, 220);
+    background-color: Transparent;
+}
+
+QDoubleSpinBox:focus {
+    background-color: rgb(250, 120, 230);
+}
+
+QLabel {
+    color: rgb(0, 80, 172);
+}
+
+QPushButton {
+    border: 2px solid rgb(17, 126, 213); 
+    border-radius: 10px; 
+    color: rgb(0, 80, 172);
+    background-color: rgb(161,221,255);
+}
+
+QPushButton:hover {
+    background-color: rgb(250, 120, 230);
+}
+
+QPushButton:pressed {
+    background-color: rgb(200, 10, 200);
+}
+
+#result {
+    border: 1.5px solid rgb(176,143,233); 
+    border-radius: 10px; 
+}
+
+#graphic {
+    line-color: rgb(250, 120, 230);
+        background-color: Transparent;
+}
